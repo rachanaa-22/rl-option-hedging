@@ -18,3 +18,4 @@ for name, pnl in results.items():
     plt.hist(pnl, bins=60, alpha=0.5, label=name)
 plt.xlabel("Total hedging P&L"); plt.legend()
 plt.savefig("results/pnl_hist.png", dpi=150)
+print("Saved results/summary.csv and results/pnl_hist.png")
